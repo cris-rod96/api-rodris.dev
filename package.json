@@ -1,0 +1,28 @@
+{
+  "name": "api-rodris.dev",
+  "version": "0.0.1",
+  "description": "Api rodris.dev portfolio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": "https://github.com/cris-rod96/api-rodris.dev.git",
+  "author": "Cristhian Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.6.8",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "morgan": "1.10.0",
+    "nodemailer": "6.9.13",
+    "pg": "8.11.5",
+    "pg-hstore": "2.3.4",
+    "sequelize": "6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0"
+  }
+}
